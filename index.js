@@ -10,7 +10,7 @@ const app = express()
 
 // set the port of our application
 // process.env.PORT lets the port be set by Heroku
-const port = process.env.PORT || 3000;
+const PORT = process.env.PORT || 3000;
 
 app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false }))
@@ -21,6 +21,6 @@ let db = mongoose.connect('mongodb://diegomcsilva:uBhEY2Ii0t1f@cluster0-shard-00
 
 routes(app)
 
-app.listen(port, () => {
+app.listen(PORT, () => {
     console.log('Express server has been started')
 })
