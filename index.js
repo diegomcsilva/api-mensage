@@ -12,7 +12,6 @@ const app = express()
 // process.env.PORT lets the port be set by Heroku
 const PORT = process.env.PORT || 3000;
 
-app.use(morgan('dev'))
 app.use(bodyParser.urlencoded({ extended: false }))
 app.use(bodyParser.json())
 app.use(cors())
