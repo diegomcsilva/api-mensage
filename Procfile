@@ -1,1 +1,1 @@
-web: babel index.js -d dist
+web: npm install && npm start
