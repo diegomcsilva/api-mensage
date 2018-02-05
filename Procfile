@@ -1,1 +1,1 @@
-web: babel index.js -d dist
+web: node index.js
