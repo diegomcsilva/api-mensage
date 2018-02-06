@@ -1,1 +1,1 @@
-web: npm install --production
+web: node index.js
