@@ -3,7 +3,6 @@ import bodyParser from 'body-parser'
 import morgan from 'morgan'
 import mongoose from 'mongoose'
 import cors from 'cors'
-const path = require('path')
 
 import routes from './routes'
 
@@ -22,9 +21,3 @@ routes(app)
 app.listen(PORT, () => {
     console.log('Express server has been started')
 })
-
-express()
-  .use(express.static(path.join(__dirname, 'public')))
-  .set('views', path.join(__dirname, 'views'))
-  .set('view engine', 'ejs')
-  .get('/', (req, res) => res.render('pages/index'))
