@@ -15,3 +15,7 @@ heroku logs --rail (Visualização dos logs)
 ]
 
 Obs: O código de produção se encontra na pasta dist
+
+Processo de desenvolvimento
+
+Alterar o arquivo que se encontra em src e rodar o comando npm run start para assim gerar o código compilado em dist e assim poder subir no heroku
