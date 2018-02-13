@@ -3,7 +3,7 @@ api-node - Versão 2
 
 Desenvolvimento [npm run dev] (Rodando um server local para ambiente de desenvolvimento)
 
-Produção [npm run start] (Roda o comando para compilação do ecmascript16 em ecmascript15 para leitura dos browsers e starta a aplicação)
+Produção [npm run start] (Rodar o comando para compilação do ecmascript16 em ecmascript15 para leitura dos browsers e starta a aplicação)
 
 O projeto roda atualmente no heroku, então para deploy de alterações:
 
